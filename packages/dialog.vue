@@ -53,7 +53,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .hm-dialog__wrapper {
   position: fixed;
   top: 0;

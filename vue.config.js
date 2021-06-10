@@ -1,6 +1,7 @@
 const path = require("path");
 module.exports = {
   lintOnSave: false,
+  css: { extract: false },
   pages: {
     index: {
       entry: "examples/main.js",

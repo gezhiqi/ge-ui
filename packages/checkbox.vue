@@ -58,7 +58,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .hm-checkbox {
   color: #606266;
   font-weight: 500;

@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'HmCheckboxGroup',
+  name: "HmCheckboxGroup",
   props: {
     value: {
       type: Array
@@ -23,4 +23,4 @@ export default {
 };
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss"></style>

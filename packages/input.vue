@@ -82,7 +82,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .hm-input {
   width: 100%;
   position: relative;

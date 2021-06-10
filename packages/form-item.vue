@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .hm-form-item {
   margin-bottom: 25px;
   .hm-form-item__label {

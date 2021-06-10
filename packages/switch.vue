@@ -57,7 +57,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .hm-switch {
   display: inline-flex;
   align-items: center;

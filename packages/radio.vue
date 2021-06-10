@@ -13,21 +13,21 @@
 
 <script>
 export default {
-  name: 'HmRadio',
+  name: "HmRadio",
   inject: {
     RadioGroup: {
-      default: ''
+      default: ""
     }
   },
   props: {
     label: {
       type: [String, Number, Boolean],
-      default: ''
+      default: ""
     },
     value: null,
     name: {
       type: String,
-      default: ''
+      default: ""
     }
   },
 
@@ -40,8 +40,8 @@ export default {
       },
       set(value) {
         // 触发父组件给当前组件注册的input事件
-        this.$emit('input', value);
-        this.isGroup ? this.RadioGroup.$emit('input', value) : this.$emit('input', value);
+        this.$emit("input", value);
+        this.isGroup ? this.RadioGroup.$emit("input", value) : this.$emit("input", value);
       }
     },
     isGroup() {
@@ -55,7 +55,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .hm-radio {
   color: #606266;
   font-weight: 500;
@@ -93,7 +93,7 @@ export default {
         height: 4px;
         border-radius: 100%;
         background-color: #fff;
-        content: '';
+        content: "";
         position: absolute;
         left: 50%;
         top: 50%;

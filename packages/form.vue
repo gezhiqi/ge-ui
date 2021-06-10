@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'HmForm',
+  name: "HmForm",
   props: {
     model: {
       type: Object,
@@ -14,7 +14,7 @@ export default {
     },
     labelWidth: {
       type: String,
-      default: '80px'
+      default: "80px"
     }
   },
   provide() {
@@ -28,4 +28,4 @@ export default {
 };
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss"></style>
